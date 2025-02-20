@@ -20,6 +20,9 @@ dependencies {
     implementation(libs.play.service.time)
 }
     // Libs Versions API Trusted Time
+    [versions]
+    playServiceTime = "16.0.1"
+
     [libraries]
     play-service-time = { module = "com.google.android.gms:play-services-time", version.ref = "playServiceTime"}
 ```
